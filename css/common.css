@@ -1,0 +1,319 @@
+			* {
+				margin: 0;
+				padding: 0;
+				-webkit-text-size-adjust: initial;
+				font-family: "微软雅黑";
+				font-size: .7rem;
+			}
+			
+			.page {
+				background-color: #FFF;
+			}
+			
+			.content {
+				overflow-x: hidden;
+			}
+			
+			.container {
+				padding: .5rem;
+				border-top: 1px solid #000;
+			}
+			
+			.head-title {
+				padding-left: .4rem;
+				border-left: 6px solid #000;
+			}
+			
+			.head-title h2 {
+				font-size: .9rem;
+			}
+			
+			.head-title h2,
+			h3 {
+				font-weight: bolder;
+			}
+			
+			.head-title p {
+				font-size: .6rem;
+				white-space: nowrap;
+			}
+			
+			.head-title h2,
+			.head-title p {
+				margin: 0;
+				color: #000;
+			}
+			
+			.marginbt {
+				margin-bottom: .5rem;
+			}
+			
+			.lyqie ul,
+			.dp ul {
+				display: flex;
+				justify-content: space-between;
+			}
+			
+			.lyqie ul {
+				margin-bottom: 1.5rem;
+			}
+			
+			.lyqie ul li,
+			.dp ul li {
+				text-align: center;
+				font-size: .8rem;
+				width: 32%;
+				list-style: none;
+				border: 1px solid #000;
+				white-space: nowrap;
+			}
+			
+			.dp ul li {
+				border-right: none;
+				box-sizing: border-box;
+			}
+			
+			.dp ul li:last-child {
+				border-right: 1px solid #000;
+			}
+			
+			.lyqie ul li.active,
+			.dp ul li.active {
+				color: #FFF;
+				background-color: #000;
+			}
+			
+			.show .item img {
+				width: 100%;
+				display: block;
+			}
+			
+			.show .item .text {
+				padding: .5rem;
+				background-color: #F2F2F2;
+			}
+			
+			.show .item .text p {
+				font-size: .7rem;
+				margin: 0;
+			}
+			/**/
+			
+			.showimg img {
+				width: 100%;
+			}
+			
+			.dp ul li {
+				width: 25%;
+				font-size: inherit;
+			}
+			
+			.contenttext {
+				font-size: .75rem;
+				padding: .5rem 0;
+			}
+			
+			.contenttext h3 {
+				margin: 0;
+			}
+			
+			.contenttext p {
+				margin: 0.2rem 0;
+				white-space: nowrap;
+			}
+			
+			.introduce {
+				display: block;
+				width: 100%;
+			}
+			
+			.backtop {
+				background: #ECF0F1;
+				height: 2rem;
+				padding-right: .5rem;
+			}
+			
+			.backtop img {
+				width: 1.5rem;
+				height: 1.5rem;
+				display: block;
+				float: right;
+				margin-top: .25rem;
+			}
+			
+			.btlogo {
+				width: 25%;
+				float: left;
+				padding-left: .5rem;
+			}
+			
+			.btlogo img {
+				width: 100%;
+				margin-top: 1.5rem;
+				padding-right: .5rem;
+			}
+			
+			.rightcontent {
+				float: right;
+				margin-top: 1rem;
+				padding-right: 5%;
+				width: 75%;
+			}
+			
+			.rightcontent p {
+				margin: 0;
+				font-size: .85rem;
+			}
+			
+			.wayToContact {
+				border-top: 1px solid #FFF;
+				border-bottom: 1px solid #FFF;
+				display: inline-block;
+				padding: .25rem 1rem .25rem 0;
+				margin: .25rem 0;
+			}
+			
+			footer {
+				width: 100%;
+				height: auto!important;
+				background: #000;
+				color: #FFF;
+				padding-bottom: 2rem;
+			}
+			
+			footer h2,
+			footer p {
+				color: #FFF;
+				font-weight: bolder;
+				white-space: nowrap;
+			}
+			/*daohang*/
+			
+			.nav {
+				padding: 0 .5rem;
+				height: 2rem;
+				line-height: 2rem;
+			}
+			
+			.nav span {
+				float: right;
+				line-height: 1.2rem;
+				border-bottom: 1px solid #000;
+				margin-top: .4rem;
+			}
+			
+			.nav img {
+				height: 1rem;
+				display: inline-block;
+				margin-top: .5rem;
+			}
+			
+			.companyname p {}
+			
+			.companyname .en {
+				display: inline-block;
+				transform-origin: left;
+				transform: scale(.9);
+			}
+			
+			.shouye {
+				position: relative;
+				height: 20rem;
+				background: url("../images/dz.jpg") no-repeat;
+				background-size: contain;
+			}
+			
+			.btns img {
+				width: .6rem;
+				height: .6rem;
+			}
+			
+			.btns {
+				position: absolute;
+				bottom: .5rem;
+				width: 100%;
+			}
+			
+			.btns div {
+				text-align: center;
+				font-weight: 600;
+				margin: 0 auto;
+			}
+			
+			.btns div span:first-child {
+				margin-right: 1.5rem;
+			}
+			
+			.btns div span {
+				border-bottom: 2px solid red;
+			}
+			/*shipin */
+			
+			.intro video {
+				width: 100%;
+				height: auto;
+			}
+			
+			.intro {
+				background-color: rgba(170, 170, 170, .8);
+				color: #FFF;
+			}
+			
+			.textintro {
+				padding: 0 .5rem .2rem .5rem;
+			}
+			
+			.textintro h3 {
+				font-size: .6rem;
+			}
+			
+			.textintro p {
+				font-size: .5rem;
+			}
+			/*lunbo*/
+			
+			.itemson {
+				width: 100%;
+				height: 17rem;
+				background-color: rgba(0, 0, 0, .6);
+				color: #FFF;
+				position: relative;
+			}
+			
+			.center {
+				width: 70%;
+				margin: 0 auto;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+			
+			.center h2,
+			.center h4 {
+				text-align: center;
+			}
+			
+			.center h2 {
+				font-size: 1rem;
+			}
+			
+			.center h4 {
+				font-size: .8rem;
+			}
+			
+			.swiper-container,
+			.intro {
+				position: relative;
+			}
+			
+			.shouye .swiper-container .close,
+			.closev {
+				position: absolute;
+				top: 10px;
+				right: 10px;
+				display: block;
+				width: 1rem;
+				height: 1rem;
+				z-index: 1;
+			}
